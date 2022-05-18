@@ -13,7 +13,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 # API Example
 ## Find Champion
 ### Overview
-The **Find Champion** funtion returns champion info and allows searching by champion name, role, origin. This function returns a list of dictionaries. When searching by name, it will return a list with only one element. When searching by role or origin, this function will return a list with multiple dictionaries with each dictionary corresponding to a matching champion.
+The **[Find Champion](find_chapion.py)** funtion returns champion info and allows searching by champion name, role, origin. This function returns a list of dictionaries. When searching by name, it will return a list with only one element. When searching by role or origin, this function will return a list with multiple dictionaries with each dictionary corresponding to a matching champion.
 
 ### Syntax
 
