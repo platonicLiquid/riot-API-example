@@ -24,21 +24,12 @@ Where *input* is name, or role and/or origin.
 ### Examples
 **Searching by Champion**
 
-Searching for a single champion
-```
-champion_to_search_for = find_champion(name = 'miss_fortune')
-```
-will return:
-
+Searching for a single champion `champion_to_search_for = find_champion(name = 'miss_fortune')` will return:
 > [{'name': 'miss fortune', 'role': 'marksman', 'origin': 'bilgewater'}]
 
 
 **Searching by Origin**
 
-Searching by origin
-```
-origin_to_search_for = find_champion(origin = 'bilgewater')
-```
-will return:
+Searching by origin `origin_to_search_for = find_champion(origin = 'bilgewater')` will return:
 > [{'name': 'gangplank', 'role': 'top lane', 'origin': 'bilgewater'}, {'name': 'miss fortune', 'role': 'marksman', 'origin': 'bilgewater'}]
 
