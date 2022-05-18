@@ -9,12 +9,16 @@
 The **[Find Champion](../find_champion.py)** function returns champion info and allows searching by champion name, role, origin. This function returns a list of dictionaries. When searching by name, it will return a list with only one element. When searching by role or origin, this function will return a list with multiple dictionaries with each dictionary corresponding to a matching champion.
 
 ### Syntax
+**Function Syntax**
 
-`find_champion(name = [input])`
+`find_champion(paramenters)`
 
-`find_champion(role = [input], origin = [input])`
+Where *parameters* are the champion name, **or** role **and/or** origin.
 
-Where *input* is the champion name, **or** role **and/or** origin.
+**Paramenters Syntax**
+`name = [name]`
+
+`role = [role], origin = [origin]`
 
 ### Examples
 **Searching by Champion**
