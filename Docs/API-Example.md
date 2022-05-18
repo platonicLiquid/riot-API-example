@@ -32,3 +32,5 @@ Searching for a single champion `champion_to_search_for = find_champion(name = '
 
 Searching by origin `origin_to_search_for = find_champion(origin = 'bilgewater')` will return:
 > [{'name': 'gangplank', 'role': 'top lane', 'origin': 'bilgewater'}, {'name': 'miss fortune', 'role': 'marksman', 'origin': 'bilgewater'}]
+
+**Note:** If you use an name with an incompatible role/origin (e.g. `name = 'gangplank', origin = 'ionia'`), this function will search for the name first and, if found, will return only the corresponding champion. If no matching champion is found by the given name, it will return a list of all champions for the given role/origin.
