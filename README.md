@@ -19,7 +19,8 @@ The **Find Champion** funtion returns champion info and allows searching by cham
 
 find_champion(name = None, role = None, origin = None)
 
-### Example
+### Examples
+**Searching by Champion**
 Searching for a single champion
 ```
 champion_to_search_for = find_champion(name = 'miss_fortune')
@@ -30,6 +31,7 @@ will return:
 [{'name': 'miss fortune', 'role': 'marksman', 'origin': 'bilgewater'}]
 ```
 
+**Searching by Origin**
 Searching by origin
 ```
 origin_to_search_for = find_champion(origin = 'bilgewater')
