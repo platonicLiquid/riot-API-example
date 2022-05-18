@@ -16,6 +16,7 @@ The **[Find Champion](../find_champion.py)** function returns champion info and 
 Where *parameters* are the champion name, **or** role **and/or** origin.
 
 **Paramenters Syntax**
+
 `name = [name]`
 
 `role = [role], origin = [origin]`
