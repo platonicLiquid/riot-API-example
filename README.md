@@ -17,7 +17,7 @@ The **Find Champion** funtion returns champion info and allows searching by cham
 
 ### Syntax
 
-`find_champion(*input*)`
+`find_champion(`*input*`)`
 
 Where *input* is name or role and/or origin.
 
