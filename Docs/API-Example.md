@@ -14,7 +14,7 @@ The **[Find Champion](../find_champion.py)** function returns champion info and 
 
 `find_champion(role = [input], origin = [input])`
 
-Where *input* is name, **or** role **and/or** origin.
+Where *input* is the champion name, **or** role **and/or** origin.
 
 ### Examples
 **Searching by Champion**
